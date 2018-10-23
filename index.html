@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Pied Piper of Hamelin | A CSS Grid experiment</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="CSS only book written by Robert Browning in 1842">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Alice|Quicksand:700" rel="stylesheet">
+	
+</head>
+<body class="">
+
+	<div class="wrapper">
+	<!-- Proxy anchors associate with layout ids in CSS. Transforms applied to scroll pages to view in desktop mode-->
+		<div class="proxy-anchor" id="pintro" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p0" aria-hidden="true"></div>
+	    <div class="proxy-anchor" id="p1" aria-hidden="true"></div>
+	    <div class="proxy-anchor" id="p2" aria-hidden="true"></div>
+	    <div class="proxy-anchor" id="p3" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p4" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p4a" aria-hidden="true"></div>
+	    <div class="proxy-anchor" id="p5" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p6" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p6a" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p6b" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p6c" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p6d" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p6e" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p6f" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p7" aria-hidden="true"></div>
+	    <div class="proxy-anchor" id="p8" aria-hidden="true"></div>
+	    <div class="proxy-anchor" id="p9" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p10" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p10a" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p10b" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p10c" aria-hidden="true"></div>
+	    <div class="proxy-anchor" id="p11" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p12" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p12a" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p12b" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p13" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p14" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p14a" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15a" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15b" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15c" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15d" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15e" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15f" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15g" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p15h" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p16" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p17" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18a" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18b" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18c" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18d" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18e" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18f" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18g" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18h" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p18i" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p19" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p20" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p21" aria-hidden="true"></div>
+		
+	<!--/ Proxy anchors -->
+		
+		
+		<div class="grid">
+
+		
+			<div class="item" id="item-intro">
+				<div class="sub-grid">
+					<img class="image-self" src="img/00.jpg" alt="Cover Artwork">
+					<div class="text-container">
+						<h1>The Pied Piper of Hamelin</h1>
+						<p>Robert Browning. 1842<br>
+						(A CSS Grid experiment)</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p0" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-0">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>Hamelin Town’s in Brunswick, <br>
+						By famous Hanover city; <br>
+						The river Weser, deep and wide, <br>
+						Washes its wall on the southern side; <br>
+						A pleasanter spot you never spied; <br>
+						But, when begins my ditty, <br>
+						Almost five hundred years ago, <br>
+						To see the townsfolk suffer so <br>
+						From vermin, was a pity.</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#pintro" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p1" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-1">
+				<div class="sub-grid">
+					<img class="image-self" src="img/01.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>Rats! <br>
+						They fought the dogs and killed the cats, <br>
+						And bit the babies in the cradles,</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p0" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p2" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+
+			<div class="item" id="item-2">
+				<div class="sub-grid">
+					<img class="image-self" src="img/02.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>And ate the cheeses out of the vats,</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p1" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p3" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-3">
+				<div class="sub-grid">
+					<img class="image-self" src="img/03.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>And licked the soup from the cook's own ladles,</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p2" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p4" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-4">
+				<div class="sub-grid">
+					<img class="image-self" src="img/04.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>Split open the kegs of salted sprats, <br>
+							Made nests inside men's Sunday hats,</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p3" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p4a" class="nav-jump"><img class="nav-icon" src="img/icon-rat.svg" alt="More Rats"><span> More Rats!</span></a>
+						<a href="#p5" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-4a">
+				<div class="sub-grid">
+					<img class="image-self" src="img/05.png" alt="Cover Artwork">
+					<nav class="nav-container" role="navigation">
+						<a href="#p5" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item landscape" id="item-5">
+				<div class="sub-grid">
+					<img class="image-self-end" src="img/06.png" alt="Cover Artwork">
+					<div class="text-container-end">
+						<p>And even spoiled the women’s chats <br>
+							By drowning their speaking <br>
+							With shrieking and squeaking <br>
+							In fifty different sharps and flats.</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p4" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p6" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item landscape" id="item-6">
+				<div class="sub-grid">
+					<img class="image-self-start-left" src="img/07.png" alt="Cover Artwork">
+					<div class="text-container-end-right">
+						<p>At last the people in a body <br>
+							To the town hall came flocking: <br>
+							"‘Tis clear," cried they, ‘our Mayor’s a noddy; <br>
+							And as for our Corporation--shocking </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p5" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p6a" class="nav-jump"><img class="nav-icon" src="img/icon-text.svg" alt="More Text"><span> More Text</span></a>
+						<a href="#p7" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-6a">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>To think we buy gowns lined with ermine <br>
+							For dolts that can’t or won’t determine <br>
+							What’s best to rid us of our vermin! <br>
+							You hope, because you’re old and obese, <br>
+							To find in the furry civic robe ease? <br>
+							Rouse up, sirs! Give your brains a racking <br>
+							To find the remedy we’re lacking, <br>
+							Or, sure as fate, we’ll send you packing!” <br>
+							At this the Mayor and Corporation <br>
+							Quaked with a mighty consternation.</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p6" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p6b" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-6b">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>An hour they sat in council, <br>
+							At length the Mayor broke silence: <br>
+							“For a guilder I’d my ermine gown sell, <br>
+							I wish I were a mile hence! <br>
+							It’s easy to bid one rack one’s brain-- <br>
+							I’m sure my poor head aches again, <br>
+							I’ve scratched it so, and all in vain <br>
+							Oh for a trap, a trap, a trap!” <br>
+							Just as he said this, what should hap <br>
+							At the chamber door but a gentle tap? </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p6a" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p6c" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-6c">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>“Bless us,' cried the Mayor, “what’s that?” <br>
+							(With the Corporation as he sat, <br>
+							Looking little though wondrous fat; <br>
+							Nor brighter was his eye, nor moister <br>
+							Than a too-long-opened oyster, <br>
+							Save when at noon his paunch grew mutinous <br>
+							For a plate of turtle, green and glutinous) <br>
+							“Only a scraping of shoes on the mat? <br>
+							Anything like the sound of a rat <br>
+							Makes my heart go pit-a-pat!”</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p6b" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p6d" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-6d">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>“Come in!”--the Mayor cried, looking bigger: <br>
+							And in did come the strangest figure! <br>
+							His queer long coat from heel to head <br>
+							Was half of yellow and half of red <br>
+							And he himself was tall and thin, <br>
+							With sharp blue eyes, each like a pin, <br>
+							And light loose hair, yet swarthy skin, <br>
+							No tuft on cheek nor beard on chin, <br>
+							But lips where smiles went out and in-- <br>
+							There was no guessing his kith and kin!</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p6c" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p6e" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-6e">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>And nobody could enough admire <br>
+							The tall man and his quaint attire. <br>
+							Quoth one:  “It’s as if my great-grandsire, <br>
+							Starting up at the Trump of Doom’s tone, <br>
+							Had walked this way from his painted tombstone!”</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p6d" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p6f" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-6f">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>He advanced to the council-table: <br>
+							And, “Please your honors," said he, “I’m able, <br>
+							By means of a secret charm, to draw <br>
+							All creatures living beneath the sun, <br>
+							That creep or swim or fly or run, <br>
+							After me so as you never saw! <br>
+							And I chiefly use my charm <br>
+							On creatures that do people harm, <br>
+							The mole and toad and newt and viper; <br>
+							And people call me the Pied Piper.” </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p6e" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p7" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item landscape" id="item-7">
+				<div class="sub-grid">
+					<img class="image-self-middle" src="img/08.png" alt="Cover Artwork">
+					<div class="text-container-middle">
+						<p>(And here they noticed round his neck <br>
+							A scarf of red and yellow stripe, <br>
+							To match with his coat of the self-same check; <br>
+							And at the scarf’s end hung a pipe; <br>
+							And his fingers, they noticed, were ever straying <br>
+							As if impatient to be playing <br>
+							Upon this pipe, as low it dangled <br>
+							Over his vesture so old-fangled.) </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p6" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p8" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item landscape" id="item-8">
+				<div class="sub-grid">
+					<img class="image-self-middle" src="img/09.png" alt="Cover Artwork">
+					<div class="text-container-middle">
+						<p>“Yet," said he, “poor piper as I am, <br>
+							In Tartary I freed the Cham, <br>
+							Last June, from his huge swarm of gnats; <br>
+							I eased in Asia the Nizam <br>
+							Of a monstrous brood of vampyre-bats: <br>
+							And as for what your brain bewilders-- <br>
+							If I can rid your town of rats <br>
+							Will you give me a thousand guilders?” <br>
+							“One? Fifty thousand!” was the exclamation <br>
+							Of the astonished Mayor and Corporation. </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p7" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p9" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item landscape" id="item-9">
+				<div class="sub-grid">
+					<img class="image-self" src="img/11.png" alt="Cover Artwork">
+					<div class="text-container-middle">
+						<p>Into the street the Piper stept, <br>
+							Smiling first a little smile, <br>
+							As if he knew what magic slept <br>
+							In his quiet pipe the while; <br>
+							Then, like a musical adept, <br>
+							To blow the pipe his lips he wrinkled, <br>
+							And green and blue his sharp eyes twinkled, <br>
+							Like a candle-flame where salt is sprinkled; <br>
+							And ere three shrill notes the pipe uttered, <br>
+							You heard as if an army muttered; </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p8" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p10" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item landscape" id="item-10">
+				<div class="sub-grid">
+					<img class="image-self-start-left" src="img/12.png" alt="Cover Artwork">
+					<div class="text-container-end">
+						<p>And the muttering grew to a grumbling; <br>
+							And the grumbling grew to a mighty rumbling; <br>
+							And out of the houses the rats came tumbling. <br>
+							Great rats, small rats, lean rats, brawny rats, <br>
+							Brown rats, black rats, gray rats, tawny rats, <br>
+							Grave old plodders, gay young friskers, </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p9" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p10a" class="nav-jump"><img class="nav-icon" src="img/icon-text.svg" alt="More Text"><span> More Text</span></a>
+						<a href="#p11" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-10a">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>Fathers, mothers, uncles, cousins, <br>
+							Cocking tails and pricking whiskers, <br>
+							Families by tens and dozens, <br>
+							Brothers, sisters, husbands, wives-- <br>
+							Followed the Piper for their lives. <br>
+							From street to street he piped advancing, <br> 
+							And step for step they followed dancing, <br>
+							Until they came to the river Weser <br>
+							Wherein all plunged and perished! <br>
+							‹Save one who, stout as Julius Caesar, <br>
+							Swam across and lived to carry</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p10" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p10b" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-10b">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>(As the manuscript he cherished) <br>
+							To Rat-land home his commentary: <br>
+							Which was, “At the first shrill notes of the pipe, <br>
+							I heard a sound as of scraping tripe, <br>
+							And putting apples, wondrous ripe, <br>
+							Into a cider-press’s gripe: <br>
+							And a moving away of pickle-tub-boards, <br>
+							And a leaving ajar of conserve-cupboards, <br>
+							And a drawing the corks of train-oil-flasks, <br>
+							And a breaking the hoops of butter-casks: <br>
+							And it seemed as if a voice</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p10a" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p10c" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-10c">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>(Sweeter far than by harp or by psaltery <br>
+							Is breathed) called out, ‘Oh rats, rejoice! <br>
+							The world is grown to one vast dry-saltery! <br>
+							So munch on, crunch on, take your nuncheon, <br>
+							Breakfast, supper, dinner, luncheon!' <br>
+							And just as a bulky sugar-puncheon, <br>
+							All ready staved, like a great sun shone <br>
+							Glorious scarce an inch before me,<br>
+							Just as methought it said ‘Come bore me!' <br>
+							-- I found the Weser rolling o’er me.” </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p10b" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p11" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+
+			<div class="item landscape" id="item-11">
+				<div class="sub-grid">
+					<img class="image-self-middle" src="img/13.png" alt="Cover Artwork">
+					<div class="text-container-middle">
+						<p>You should have heard the Hamelin people <br>
+							Ringing the bells till they rocked the steeple. <br>
+							Go," cried the Mayor, “and get long poles! <br>
+							Poke out the nests and block up the holes! </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p10" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p12" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item landscape" id="item-12">
+				<div class="sub-grid">
+					<img class="image-self-middle" src="img/14.png" alt="Cover Artwork">
+					<div class="text-container-middle">
+						<p>Consult with carpenters and builders <br>
+							And leave in our town not even a trace <br>
+							Of the rats!”-- when suddenly, up the face <br>
+							Of the Piper perked in the market-place,<br>
+							With a, “First, if you please, my thousand guilders!” </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p11" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p12a" class="nav-jump"><img class="nav-icon" src="img/icon-text.svg" alt="More Text"><span> More Text</span></a>
+						<a href="#p13" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-12a">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>A thousand guilders! The Mayor looked blue; <br>
+							So did the Corporation too. <br>
+							For council dinners made rare havoc <br>
+							With Claret, Moselle, Vin-de-Grave, Hock; <br>
+							And half the money would replenish <br>
+							Their cellar’s biggest butt with Rhenish. <br>
+							To pay this sum to a wandering fellow <br>
+							With a gypsy coat of red and yellow! <br>
+							“Beside," quoth the Mayor with a knowing wink, <br>
+							“Our business was done at the river’s brink;</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p12" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p12b" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-12b">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>We saw with our eyes the vermin sink, <br>
+							And what’s dead can’t come to life, I think. <br>
+							So, friend, we’re not the folks to shrink <br>
+							From the duty of giving you something for drink, <br>
+							And a matter of money to put in your poke; <br>
+							But as for the guilders, what we spoke <br>
+							Of them, as you very well know, was in joke. <br>
+							Beside, our losses have made us thrifty. <br>
+							A thousand guilders! Come, take fifty! </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p12a" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p13" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+			
+			<div class="item landscape" id="item-13">
+				<div class="sub-grid">
+					<img class="image-self-start-left" src="img/15.jpg" alt="Cover Artwork">
+					<div class="text-container-end">
+						<p>The Piper’s face fell, and he cried, <br>
+							“No trifling! I can’t wait! Beside, <br>
+							I’ve promised to visit by dinnertime <br>
+							Bagdad, and accept the prime</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p12" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p14" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-14">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>Of the Head-Cook’s pottage, all he’s rich in, <br>
+							For having left, in the Caliph’s kitchen, <br>
+							Of a nest of scorpions no survivor-- <br>
+							With him I proved no bargain-driver, <br>
+							With you, don’t think I’ll bate a stiver! <br>
+							And folks who put me in a passion <br>
+							May find me pipe to another fashion.” </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p13" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p14a" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-14a">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>“How?” cried the Mayor, “d’ye think I brook <br>
+							Being worse treated than a Cook? <br>
+							Insulted by a lazy ribald <br>
+							With idle pipe and vesture piebald? <br>
+							You threaten us, fellow? Do your worst, <br>
+							Blow your pipe there till you burst!” </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p14" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item landscape" id="item-15">
+				<div class="sub-grid">
+					<img class="image-self-start-left" src="img/16.png" alt="Cover Artwork">
+					<div class="text-container-end">
+						<p>Once more he stept into the street <br>
+							And to his lips again <br>
+							Laid his long pipe of smooth straight cane; <br>
+							And ere he blew three notes (such sweet <br>
+							Soft notes as yet musician’s cunning <br>
+							Never gave the enraptured air) </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p14" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15a" class="nav-jump"><img class="nav-icon" src="img/icon-pipe.svg" alt="Next"><span> Pipe Music</span></a>
+						<a href="#p16" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-15a">
+				<div class="sub-grid">
+					<img class="image-self" src="img/17.png" alt="Cover Artwork">
+					<nav class="nav-container" role="navigation">
+						<a href="#p14" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15b" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-15b">
+				<div class="sub-grid">
+					<img class="image-self" src="img/18.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>There was a rustling that seemed like a bustling</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p15a" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15c" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-15c">
+				<div class="sub-grid">
+					<img class="image-self" src="img/19.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>Of merry crowds justling at pitching and hustling,</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p15b" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15d" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-15d">
+				<div class="sub-grid">
+					<img class="image-self" src="img/20.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>Small feet were pattering, wooden shoes clattering,</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p15c" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15e" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-15e">
+				<div class="sub-grid">
+					<img class="image-self" src="img/21.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>Little hands clapping, and little tongues chattering,</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p15d" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15f" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-15f">
+				<div class="sub-grid">
+					<img class="image-self" src="img/22.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>And, like fowls in a farm-yard when barley is scattering, </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p15e" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15g" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-15g">
+				<div class="sub-grid">
+					<img class="image-self" src="img/23.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>Out came the children running.</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p15f" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p15h" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-15h">
+				<div class="sub-grid">
+					<img class="image-self" src="img/24.png" alt="Cover Artwork">
+					<div class="text-container">
+						<p>All the little boys and girls, </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p15g" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p16" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-16">
+				<div class="sub-grid">
+					<img class="image-self" src="img/the-long-queue-a.png" alt="Final">
+					<div class="text-container">
+						<p>With rosy cheeks and flaxen curls, <br>
+							And sparkling eyes and teeth like pearls,</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p15" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p17" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+	
+			<div class="item" id="item-17">
+				<div class="sub-grid">
+					<img class="image-self" src="img/the-long-queue-b.png" alt="Final">
+					<div class="text-container">
+						<p>Tripping and skipping, ran merrily after <br>
+							The wonderful music with shouting and laughter. </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p16" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+	
+			<div class="item landscape" id="item-18">
+				<div class="sub-grid">
+					<img class="image-self-middle" src="img/30.png" alt="Final">
+					<div class="text-container-middle">
+						<p>The Mayor was dumb, and the Council stood <br>
+								As if they were changed into blocks of wood, <br>
+								Unable to move a step or cry, <br>
+								To the children merrily skipping by--, </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p17" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18a" class="nav-jump"><img class="nav-icon" src="img/icon-text.svg" alt="More Text"><span> More Text</span></a>
+						<a href="#p19" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-18a">
+				<div class="sub-grid">
+						<div class="text-container">
+							<p>And could only follow with the eye <br>
+							That joyous crowd at the Piper’s back. <br>
+							But how the Mayor was on the rack <br>
+							And the wretched Council’s bosoms beat, <br>
+							As the Piper turned from the High Street <br>
+							To where the Weser rolled its water’s <br>
+							Right in the way of their sons and daughters! <br>
+							However he turned from South to West <br>
+							And to Koppelberg Hill his steps addressed, <br>
+							And after him the children pressed; <br>
+							Great was the joy in every breast.</p>
+					</div>						
+					<nav class="nav-container" role="navigation">
+						<a href="#p18" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18b" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-18b">
+				<div class="sub-grid">
+						<div class="text-container">
+							<p>“He never can cross that mighty top! <br>
+								He’s forced to let the piping drop <br>
+								And we shall see our children stop!<br>
+								When, lo, as they reached the mountain-side, <br>
+							A wondrous portal opened wide,<br>
+							As if a cavern was suddenly hollowed; <br>
+							And the Piper advanced and the children followed, <br>
+							And when all were in to the very last, <br>
+							The door in the mountain-side shut fast.</p>
+					</div>						
+					<nav class="nav-container" role="navigation">
+						<a href="#p18a" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18c" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-18c">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>Did I say all? No! One was lame, <br>
+							And could not dance the whole of the way; <br>
+							And in after years, if you would blame <br>
+							His sadness, he was used to say,-- <br>
+							“It’s dull in our town since my playmates left!<br>
+							I can’t forget that I’m bereft <br>
+						Of all the pleasant sights they see, <br>
+						Which the Piper also promised me. </p>
+					</div>					
+					<nav class="nav-container" role="navigation">
+						<a href="#p18b" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18d" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-18d">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>For he led us, he said, to a joyous land, <br>
+						Joining the town and just at hand, <br>
+						Where waters gushed and fruit-trees grew,<br>
+						And flowers put forth a fairer hue, <br>
+						And everything was strange and new;<br>
+						The sparrows were brighter than peacocks here, <br>
+						And their dogs outran our fallow deer, <br>
+						And honey-bees had lost their stings, <br>
+						And horses were born with eagles’ wings: </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p18c" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18e" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+		
+			<div class="item" id="item-18e">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>And just as I became assured <br>
+						My lame foot would be speedily cured, <br>
+						The music stopped and I stood still, <br>
+						And found myself outside the hill, <br>
+						Left alone against my will, <br>
+						To go now limping as before, <br>
+						And never hear of that country more! <br>
+						Alas, alas for Hamelin! <br>
+						There came into many a burgher’s pate <br>
+						A text which says that heaven’s gate <br>
+						Opens to the rich at as easy rate <br>
+						As the needle’s eye takes a camel in!</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p18d" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18f" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-18f">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>The mayor sent East, West, North and South, <br>
+							To offer the Piper, by word of mouth <br>
+							Wherever it was men’s lot to find him,<br>
+							Silver and gold to his heart’s content,<br>
+							If he’d only return the way he went, <br>
+							And bring the children behind him. <br>
+							But when they saw ‘twas a lost endeavor, <br>
+							And Piper and dancers were gone forever, <br>
+							They made a decree that lawyers never <br>
+							Should think their records dated duly </p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p18e" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18g" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-18g">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>If, after the day of the month and year, <br>
+							These words did not as well appear:<br>
+							“And so long after what happened here <br>
+							On the twenty-second of July, <br>
+							Thirteen hundred and seventy-six;"<br>
+							And the better in memory to fix <br>
+							The place of the children’s last retreat, <br>
+							They called it the Pied Piper’s Street,<br>
+							Where any one playing on pipe or tabor <br>
+							Was sure for the future to lose his labor.</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p18f" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p18h" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-18h">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>Nor suffered they hostelry or tavern <br>
+							To shock with mirth a street so solemn, <br>
+							But opposite the place of the cavern<br>
+							They wrote the story on a column,<br>
+							And on the great church-window painted <br>
+							The same, to make the world acquainted <br>
+							How their children were stolen away, <br>
+							And there it stands to this very day.</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p18f" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p19" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-18i">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>And I must not omit to say <br>
+							That, in Transylvania there’s a tribe <br>
+							Of alien people who ascribe <br>
+							To the outlandish ways and dress <br>
+							On which their neighbors lay such stress, <br>
+							To their fathers and mothers having risen <br>
+							Out of some subterranean prison <br>
+							Into which they were trepanned <br>
+							Long time ago in a mighty band <br>
+							Out of Hamelin town in Brunswick land, <br>
+							But how or why they don’t understand.</p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p18h" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p19" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-19">
+				<div class="sub-grid">
+					<img class="image-self" src="img/31.jpg" alt="End">
+					<nav class="nav-container" role="navigation">
+						<a href="#p18" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p20" class="nav-next"><span>Next </span><img class="nav-icon" src="img/icon-right.svg" alt="Next"></a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-20">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>So, Willy, let you and me be wipers <br>
+								Of scores out with all men--especially pipers! <br>
+								And, whether they pipe us free, from rats or from mice, <br>
+								If we’ve promised them ought, let us keep our promise. </p>
+						<h3>End</h3>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#p19" class="nav-previous"><img class="nav-icon" src="img/icon-left.svg" alt="Back"><span> Back</span></a>
+						<a href="#p21" class="nav-next">Credits</a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="item" id="item-21">
+				<div class="sub-grid">
+					<div class="text-container">
+						<p>Credits<br>
+						- The Pied Piper of Hamelin. [Originally published in “Dramatic Lyrics,” no. 3 in the series “Bells and Pomegranates.”]. The British Library <a href="http://access.bl.uk/item/pdf/lsidyv3386bf66">[Link]</a><br>
+						- The British Library Children's Book Collection <a href="https://www.flickr.com/photos/britishlibrary/sets/72157638906393085">[Link]</a><br>
+						- The Deck by James Clarke <a href="http://www.hi.agency/deck/">[Link]</a><br>
+						- Reset CSS by Eric Meyer <a href="http://meyerweb.com/eric/tools/css/reset/">[Link]</a></p>
+					</div>
+					<nav class="nav-container" role="navigation">
+						<a href="#pintro" class="nav-jump">Home</a>
+					</nav>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+	</div>
+
+</body>
+</html>
